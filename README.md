@@ -91,8 +91,7 @@ All 7 test cases shall pass.
 ## 6) Additional Info on Error Handling
 This Project has capability to handle few false scearios where it will show custom Error messages based on use cases.
 ### a) Trying to find the stats of productId which is not present in DB
-### input URL: 
-http://localhost:8080/api/stats/6
+### input URL:  http://localhost:8080/api/stats/6
 ### output:
 {"statusCode":404,"timestamp":"2021-08-28T17:36:40.931+00:00","message":"6 Not found","description":"uri=/api/stats/6"}
 
